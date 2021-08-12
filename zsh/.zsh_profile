@@ -1,3 +1,4 @@
 VIM="nvim"
 export GIT_EDITOR=$VIM
+export STOW_DIR='~/.dotfiles'
 
