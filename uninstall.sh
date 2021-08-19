@@ -14,8 +14,7 @@ IFS=' '
 read -ra ARR <<< "$CONFIG_FOLDERS"
 for item in "${ARR[@]}"
 do
-    stow -D "$item" 2> /dev/null
-    stow "$item"
+    stow -D "$item" 2> /dev/null 
 done
 
 popd
