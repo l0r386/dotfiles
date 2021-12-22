@@ -8,6 +8,12 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-surround'
     Plug 'davidhalter/jedi-vim'
+    Plug 'Valloric/YouCompleteMe'
+    Plug 'preservim/nerdtree'
+    Plug 'tpope/vim-fugitive'
+    Plug 'vim-syntastic/syntastic'
+    Plug 'nvie/vim-flake8'
+    Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
 colorscheme nord
