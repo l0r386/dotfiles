@@ -8,7 +8,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-surround'
     Plug 'davidhalter/jedi-vim'
-    Plug 'Valloric/YouCompleteMe'
     Plug 'preservim/nerdtree'
     Plug 'tpope/vim-fugitive'
     Plug 'vim-syntastic/syntastic'
@@ -16,4 +15,5 @@ call plug#begin('~/.vim/plugged')
     Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
-colorscheme nord
+set background=dark
+autocmd vimenter * ++nested colorscheme solarized8
