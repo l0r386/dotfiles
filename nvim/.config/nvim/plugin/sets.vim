@@ -35,3 +35,5 @@ set colorcolumn=120
 
 let mapleader=' ' 
 nnoremap <leader>n :NERDTree<CR>
+lua require'lspconfig'.pyright.setup{}
+
