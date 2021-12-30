@@ -2,8 +2,8 @@ VIM="nvim"
 export GIT_EDITOR=$VIM
 export STOW_DIR=$HOME"/.dotfiles/"
 # My aliases
-
-
+alias vi=nvim
+alias vim=nvim
 
 # My custom functions
 mkcd () {

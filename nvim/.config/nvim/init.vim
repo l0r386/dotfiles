@@ -22,3 +22,10 @@ call plug#end()
 
 set background=dark
 autocmd vimenter * ++nested colorscheme solarized8
+
+
+runtime! conf.d/*.nvim
+runtime! conf.d/*.vim
+
+autocmd BufNewFile,BufRead *.nvim setfiletype vim
+
