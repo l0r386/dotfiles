@@ -8,7 +8,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-surround'
     Plug 'preservim/nerdtree'
     Plug 'lifepillar/vim-solarized8'
-    
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+
+    Plug 'numToStr/Comment.nvim'
+   
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
@@ -23,9 +27,10 @@ call plug#end()
 set background=dark
 autocmd vimenter * ++nested colorscheme solarized8
 
-
 runtime! conf.d/*.nvim
 runtime! conf.d/*.vim
+runtime! conf.d/*.lua
 
+let g:airline_theme='solarized_flood'
 autocmd BufNewFile,BufRead *.nvim setfiletype vim
 
