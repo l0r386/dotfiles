@@ -1,4 +1,8 @@
+
 VIM="nvim"
+
+export VISUAL=$VIM
+export EDITOR=$VIM
 export GIT_EDITOR=$VIM
 export STOW_DIR=$HOME"/.dotfiles/"
 # My aliases
